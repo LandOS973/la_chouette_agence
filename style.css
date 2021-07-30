@@ -809,12 +809,49 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+.block_citation{
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+.citation{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.auteur{
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+
+.description{
+    font-weight: 400;
+    font-size: 22px;
+    max-width: 600px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+
+.client{
+    margin-top: 30px;
+    font-size: 22px;
+    max-width: 450px;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+.bg-dots-bg {
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-banniere {
