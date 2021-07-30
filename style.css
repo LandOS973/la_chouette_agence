@@ -149,6 +149,25 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.biggi{
+    font-size: 19px;
+    color: rgb(75, 74, 74)!important;
+    padding-bottom: 50px;
+}
+
+.widthimg{
+    width:100;
+}
+
+.margin{
+    text-align: center;
+    width: 100%;
+}
+
+.logo{
+    width: 400px;
+}
+
 .d-bloc a .icon-md{
     color:black;
 }
@@ -725,6 +744,7 @@ p {
 .icon-social{
     width: 50px;
     height: 50px;
+    margin: auto auto auto auto;
 }
 
 h2 {
