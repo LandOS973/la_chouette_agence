@@ -26,7 +26,15 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+ .bigger{
+     font-size: 13px;
+ }
+.orange{
+    color: white!important;
+}
+ .biggest{
+     font-size: 17px;
+ }
 .bloc {
     width: 100%;
     clear: both;
@@ -314,6 +322,7 @@ a:hover {
 .nav-center .navbar-brand img {
     margin: 0;
 }
+
 
 .navbar .nav {
     padding-top: 2px;
@@ -778,13 +787,17 @@ h4 {
     color: #F3976C!important;
 }
 
+.white{
+    color: white;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #303030;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #181818!important;
     color: #FFFFFF!important;
 }
 
