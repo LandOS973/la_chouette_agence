@@ -37,7 +37,9 @@ a:hover {
     color: black!important;
 }
  .biggest{
-     font-size: 17px;
+     font-size: 19px;
+     text-transform: uppercase;
+     font-weight: 500;
  }
 .bloc {
     width: 100%;
@@ -718,6 +720,11 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+.icon-social{
+    width: 50px;
+    height: 50px;
 }
 
 h2 {
