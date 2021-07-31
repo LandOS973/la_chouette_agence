@@ -45,17 +45,27 @@
 	<!-- Principal conteneur -->
 	<div class="page-container">
 		<!-- bloc-0 -->
-		<header class="bloc bgc-white l-bloc" id="bloc-0">
+		<header class="bloc bgc-white l-bloc " id="bloc-0">
 			<div class="container bloc-sm">
-				<nav class="navbar row">
+				<nav class="navbar row ">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" class="logo"/></a>
+							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" class="logo" /></a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="index.html">Accueil</a>
+								<a href="index.html" class="liencontact"  aria-label="Lien vers index">Accueil</a>
 							</li>
+							<li>
+								<a href="contact.html" class="liencontact"  aria-label="Lien vers contact">Contact</a>
+							</li>
+							
 						</ul>
 					</div>
 				</nav>
@@ -86,8 +96,7 @@
 				</p>
 				<div class="row">
 					<div class="col-sm-8">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1">
 							<div class="form-group">
 								<label for="name">
 									Nom
@@ -158,6 +167,7 @@
 									<a aria-label="Lien vers Instagram" href="https://www.instagram.com/?hl=fr"><i class="fa fa-instagram icon-md"></i></a>
 								</div>
 							</div>
+						</div>
 					</div>
 				</div>
 			</div>
